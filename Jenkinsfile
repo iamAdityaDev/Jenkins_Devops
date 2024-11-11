@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        nodejs 'NodeJS_20' // Use the name specified in the Global Tool Configuration
+        nodejs 'NodeJS' // Use the exact name in Global Tool Configuration
     }
     stages {
         stage('Install Dependencies') {
@@ -16,7 +16,6 @@ pipeline {
         }
     }
 }
-
 
 
 
